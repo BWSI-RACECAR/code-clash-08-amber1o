@@ -32,9 +32,9 @@ class Solution:
 
 
         # TODO: Write code below to return a double with the solution to the prompt
-            dis_1 = (((v1[0]-v2[0])**2) + ((v1[1]-v2[1])**2))**1/2
-            dis_2 = (((v1[0]-3[0])**2) + ((v1[1]-v3[1])**2))**1/2
-            dis_3 = (((v3[0]-v2[0])**2) + (([1]-v2[1])**2))**1/2
+            dis_1 = (((v1[0]-v2[0])**2) + ((v1[1]-v2[1])**2)))**1/2
+            dis_2 = (((v1[0]-3[0])**2) + ((v1[1]-v3[1])**2)))**1/2
+            dis_3 = (v3[0]-v2[0])**2) + (([1]-v2[1])**2)))**1/2
 
             return dis_1 + dis_2 + dis_3
 
