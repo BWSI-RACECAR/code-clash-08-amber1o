@@ -2,21 +2,15 @@
 Copyright MIT BWSI Autonomous RACECAR Course
 MIT License
 Summer 2022
-
 Code Clash #8 - Triangle Perimeter (triperim.py)
-
-
 Author: Ainsley Ward
-
 Difficulty Level: 5/10
-
 Prompt: You just got your class schedule and found out Geometry is your last period, 
 after Physics, PE, English, and History. You're going to be working with triangle 
 perimeters everyday this week, and will not have the brain power at the end of the day 
 to do all those calculations. Luckily, you're a coding wizard and decide to come up 
 with a program that returns the perimeter of a triangle, given the three vertices as 
 inputs. Each of the inputs will be list types, and your code will return a float. 
-
 Test Cases:
 Input: v1 = [3, 6]; v2 = [1, 2]; v3 = [8, 2];       Output = 17.875
 Input: v1 = [0, -1]; v2 = [-5, 2]; v3 = [-3, -2];   Output = 13.465
@@ -29,14 +23,15 @@ class Solution:
         # type v2: list
         # type v3: list
         # return: int
-
-
+        
+   
         # TODO: Write code below to return a double with the solution to the prompt
-            dis_1 = (((v1[0]-v2[0])**2) + ((v1[1]-v2[1])**2)))**1/2
-            dis_2 = (((v1[0]-3[0])**2) + ((v1[1]-v3[1])**2)))**1/2
-            dis_3 = (v3[0]-v2[0])**2) + (([1]-v2[1])**2)))**1/2
-
-            return dis_1 + dis_2 + dis_3
+    
+    
+        dis_1 = (((v2[0] - v1[0]) ** 2) + ((v2[1] - v1[1]) ** 2)) ** (1/2)
+        dis_2 = (((v3[0] - v2[0]) ** 2) + ((v3[1] - v2[1]) ** 2)) ** (1/2)
+        dis_3 = (((v1[0] - v3[0]) ** 2) + ((v1[1] - v3[1]) ** 2)) ** (1/2)
+        return dis_1 + dis_2 + dis_3
 
 def main():
     array1 = input().split(" ")
