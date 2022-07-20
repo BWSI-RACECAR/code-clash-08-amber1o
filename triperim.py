@@ -37,7 +37,6 @@ class Solution:
             dis_3 = sqrt(((v3[0]-v2[0])**2) + (([1]-v2[1])**2))**1/2
 
             return dis_1 + dis_2 + dis_3
-        pass
 
 def main():
     array1 = input().split(" ")
